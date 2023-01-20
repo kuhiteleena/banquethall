@@ -6,7 +6,7 @@
 }
 /* linear-gradient((90deg, rgba(204,155,212,1) 23%, rgba(124,72,120,1) 58%, rgba(70,32,82,1) 100%)) */
 header{
-    background-image: url(../img12.jpg);
+    background-image: url(./img12.jpg);
     height: 100vh;
     /* background-size: auto; */
     background-position: center;
@@ -28,7 +28,7 @@ ul li{
  ul li a{
     text-decoration: none;
     color: #fff;
-    padding: 5px 13px;
+    padding: 5px 14px;
     border:  1px solid transparent;
     transition: 0.5 ease;
  }
@@ -80,7 +80,7 @@ ul li{
 }
 .sub-menu{
     display: none;
-    top: 6%;
+    top: 12%;
     position: relative;
 }
 .sub-menu ul{
@@ -90,7 +90,7 @@ ul li{
     display: block;
     position: absolute;
     background-color:rgb(0,45,117);
-    margin-top: px;
+    margin-top: 2px;
     margin-left:-8px; 
 }
 .main ul li:hover .sub-menu ul{
@@ -134,12 +134,18 @@ ul li{
     font-weight: 50;
     font-stretch: ultra-expanded; 
 }
-.pack{
-   
+.pack{ padding-bottom: 17px;
     list-style: none;
+   text-align: center;
+   -webkit-font-smoothing: antialiased; 
+   /* font-family: Arial, Helvetica, sans-serif; */
+   font-weight: 50;
+   font-stretch: ultra-expanded; 
+    /* list-style: none;
     -webkit-font-smoothing: antialiased;
     font-weight: 50; 
-}
+    font-size: 4vh;
+} */}
 .rig{
     width: 36vw;
     
@@ -191,11 +197,18 @@ ul li{
         -webkit-font-smoothing: antialiased;
         font-weight: 50;  color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh;
 }
-.pacc{
+.pacc{padding-bottom: 17px;
     list-style: none;
+   text-align: center;
+   -webkit-font-smoothing: antialiased; 
+   /* font-family: Arial, Helvetica, sans-serif; */
+   font-weight: 50;
+   font-stretch: ultra-expanded; 
+    
+    /* list-style: none;
     -webkit-font-smoothing: antialiased;
     font-weight: 50; 
-    font-size: 3vh;
+    font-size: 4vh; */
 }
 
 .par{
@@ -294,7 +307,256 @@ ul li{
     align-items: center;
     margin: 65px 0px;
 }
+.mm{
+    /* display: inline; */
+    /* justify-content: center; */
+    /* display: flex; */
+
+    align-items: baseline;
+}
 .imm{
     
-    margin: 0px 10px;
+    margin: 0px -10px;
+}
+.social{
+    /* margin-top: 13rem; */
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 2vh;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7vh;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background:#cb2027 ;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .card{
+    position: relative;
+    box-sizing: border-box;
+    /* width: 1200px; */
+    /* height: 200px; */
+    margin: 5 rem;
+    /* background-color: black; */
+}
+.cimm{
+    width: 60vh;
+}
+.cimm2{
+    width: 50vh;
+}
+.cimm3{
+    width: 41vh;
+}
+.cimm4{
+    width: 50vh;
+}
+.cimm5{
+    width: 37vh;
+}
+.cimm7{
+    width: 50vh;
+}
+
+.card-inner-col{
+    align-items: center;
+    /* justify-items: center; */
+    display: inline-block;
+    background-color: rgb(252, 252, 252);
+    /* display: inline-flex; */
+    margin: 3vh 20vh;
+}
+.phooo{
+    background-color: rgb(252, 252, 252);
+    display: inline-block;
+    margin: 13px 220px;
+}
+.cimmm{
+    width: 70vh;
+}
+.cimmm1{
+    width: 70vh;
+}
+.cimmm2{
+    width: 51vh;
+}
+
+.cimmm4{
+    width: 67vh;
+}
+.cimmm5{
+    width: 50vh;
+}
+.card{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 220px;
+}
+.midd{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.phoooo{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 13px 220px;
+}
+.footer{
+    background:#111;
+}
+
+.footer .box-container{
+    justify-content: space-evenly;
+     display: flex;
+    font-family: "Sofia", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 15vh;
+    font-weight: 10;
+    font-size: 1vh;
+    background-color: black; 
+    height: 60vh;
+    /* padding-bottom: 17px; */
+    list-style: none;
+}
+
+.footer .box-container .box h3{
+    font-size: 1.5rem;
+    padding:0.5rem 0;
+    color:#fff;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1rem;
+    padding:0.3rem 0;
+    color:#eee;
+}
+
+.footer .box-container .box a i{
+    padding-right: .5rem;
+    color:var(--main-color);
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 1.5rem;
+    color: tomato;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: .1rem solid #222;
+    color:#fff;
+    padding:2rem;
+    padding-top: 2rem;
+    margin-top: rem;
+    font-size: 1rem;
+}
+
+.footer .credit span a{
+    color: white;
+    background-color: green;
+    padding: 0px 4px;
+}
+
+.footer .credit span a:hover{
+    color: white;
+    background-color: indigo;
+    padding: 0px 5px;
+}
+
+/* .theme-toggler{
+    position: fixed;
+    top:10rem; right:-20rem;
+    background: #333;
+    z-index: 1000;
+    width: 20rem;
+    text-align: center;
+}
+
+.theme-toggler.active{
+    right:0;
+}
+
+.theme-toggler h3{
+    color:#fff;
+    padding:1rem 0;
+    font-size: 2rem;
+}
+
+.theme-toggler .buttons{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding:1rem;
+}
+
+.theme-toggler .buttons .theme-btn{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.theme-toggler .toggle-btn{
+    position: absolute;
+    top:0; left:-5.9rem;
+    padding:1.3rem 1.5rem;
+    background:#333;
+    cursor: pointer;
+}
+
+.theme-toggler .toggle-btn i{
+    color:#fff;
+    font-size: 3rem;
+    animation: spin 4s linear infinite;
+} */
+
+
+/* .swiper-slide {
+    flex-shrink: 0;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    transition-property: transform;} */
+
+.logoo{
+    /* margin: 12vh 0vh 0vh 0vh; */
+    
 }
