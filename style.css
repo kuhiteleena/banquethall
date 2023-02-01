@@ -564,21 +564,24 @@ align-items: center;
     
 }
 .team{
-    background-image: url();
+    
 }
 .team .box-container{
-    display: grid;
     
+    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 0.5fr));
-    gap:1.5rem;
+    gap:1.0rem;
  }
  
  .team .box-container .box{
+    
+    
     border-radius: .3rem;
     /* background:transparent #ac8531; */
-    padding:2rem;
+    padding:3rem;
     text-align: center;
     box-shadow: box-shadow;
+   
  }
  
  .team .box-container .box img{
@@ -728,3 +731,90 @@ p {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+element.style {
+    display: block;
+}
+.bookingPopup {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    -webkit-backface-visibility : hidden;
+    left: 0;
+    outline: 0;
+    position: fixed;
+    -webkit-tap-highlight-color: transparent;
+    top: 0;
+    touch-action: manipulation;
+ -webkit-transform: translateZ(0); 
+    transform: translateZ(0); 
+    display: none;
+    z-index: 9999;
+    background: #fff; 
+ }.closebigBtn {
+    background-image: url(../images/close-brown.png);
+    width: 32px;
+    height: 32px;
+} 
+.bookingClose {
+    background-image: url(../images/close-blue.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    background-size: contain;
+    z-index: 99;
+}
+.bookingPopup .bookingContent {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 100%;
+}
+.bookingPopup .popup-title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #896633;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+ /* @media (min-width: 768px)  */
+.col-md-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+} 
+input {
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+input {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+} 
