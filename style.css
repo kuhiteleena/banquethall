@@ -56,6 +56,9 @@ ul li{
     justify-content: space-between;
     padding: 0px 65px;
  }
+ .mid{
+    margin:0px 23px 0px 0px;
+ }
 .title{
     /* align-items: center; */
     /* justify-items: center; */
@@ -72,11 +75,26 @@ ul li{
      font-size: 2vh;
     text-align: center;
 }
+.title h2{
+    text-align: center;
+   /* margin-top: -30px; */
+   margin-left: -37px;
+}
+.title h3{
+    text-align: center;
+   margin-top: -37px;
+   margin-left: -40px;
+}
+.title h1{
+    text-align: center;
+   margin-top: -30px;
+   margin-left: -37px;
+}
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 17px 0px;
+   margin: 20px 50px 0px 0px;
     /* margin: 32%; */
     /* padding: 5px 15px; */
     transition: 0.5 ease;
