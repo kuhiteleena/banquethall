@@ -7,6 +7,7 @@
 /* linear-gradient((90deg, rgba(204,155,212,1) 23%, rgba(124,72,120,1) 58%, rgba(70,32,82,1) 100%)) */
 header{
     background-image: url(./img12.jpg);
+    
     height: 100vh;
     /* background-size: auto; */
     background-position: center;
@@ -39,14 +40,17 @@ ul li{
  ul li.active a{
     background-color: #fff;
     color: black;
+   
  }
  .logo img{
     width: 65%;
     border: 0px solid white;
     border-radius: 50px;
     margin-top: 15px;
+   
  }
  .main{
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -118,6 +122,41 @@ ul li{
       text-align: center;
       
 }
+.ab_subtitle{
+    font-size: 20px;
+    color: #726d6a;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.ab_title {
+    /* font-size: 18px; */
+    /* display: inline-flex; */
+    text-align: center;
+    /* margin-bottom: 0px; */
+    color:#ac8531;
+   list-style: none;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Sofia", sans-serif;
+   font-weight: 50;font-size: 6vh;
+}
+.ab_title::before {
+    content: url(https://www.asianbanquets.in/wp-content/uploads/2020/07/left-arrow.png);
+    background-repeat: no-repeat;
+    border-color:  rgb(138, 9, 31);
+    left: 31rem;
+    margin-right: 20px;
+}
+.ab_title::after {
+    content: url(https://www.asianbanquets.in/wp-content/uploads/2020/07/right-arrow.png);
+    background-repeat: no-repeat;
+    left: 31rem;
+    margin-left: 20px;
+}
+.ab_read a {
+    color: #bc9d5a!important;
+    border-bottom: 2px solid #bc9d5a;
+}
 .headin{
    color: rgb(138, 9, 31) ;
    list-style: none;
@@ -134,7 +173,7 @@ ul li{
     font-weight: 50;
     font-stretch: ultra-expanded; 
 }
-.pack{ padding-bottom: 17px;
+.pack{ padding-bottom: 15px;
     list-style: none;
    text-align: center;
    -webkit-font-smoothing: antialiased; 
@@ -156,9 +195,10 @@ ul li{
     
 }
 .left{
-    
+   border-radius: 12px;
     /* margin-right: 1000px; */
     width: 30vw;
+
     
 }
 
@@ -293,7 +333,7 @@ ul li{
     /* flex-direction: row-reverse; */
     display: flex;
     align-items: center;
-    margin: 65px 0px;
+    margin: 10px 0px;
     justify-content: space-evenly;
 }
 .fouthC{
@@ -500,63 +540,173 @@ align-items: center;
     padding: 0px 5px;
 }
 
-/* .theme-toggler{
-    position: fixed;
-    top:10rem; right:-20rem;
-    background: #333;
-    z-index: 1000;
-    width: 20rem;
-    text-align: center;
-}
-
-.theme-toggler.active{
-    right:0;
-}
-
-.theme-toggler h3{
-    color:#fff;
-    padding:1rem 0;
-    font-size: 2rem;
-}
-
-.theme-toggler .buttons{
-    display: flex;
-    justify-content:center;
-    flex-wrap: wrap;
-    gap:1rem;
-    padding:1rem;
-}
-
-.theme-toggler .buttons .theme-btn{
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.theme-toggler .toggle-btn{
-    position: absolute;
-    top:0; left:-5.9rem;
-    padding:1.3rem 1.5rem;
-    background:#333;
-    cursor: pointer;
-}
-
-.theme-toggler .toggle-btn i{
-    color:#fff;
-    font-size: 3rem;
-    animation: spin 4s linear infinite;
-} */
-
-
-/* .swiper-slide {
-    flex-shrink: 0;
-    width: 50%;
-    height: 50%;
-    position: relative;
-    transition-property: transform;} */
 
 .logoo{
     /* margin: 12vh 0vh 0vh 0vh; */
     
+}
+.team{
+    background-image: url();
+}
+.team .box-container{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 0.5fr));
+    gap:1.5rem;
+ }
+ 
+ .team .box-container .box{
+    border-radius: .3rem;
+    /* background:transparent #ac8531; */
+    padding:2rem;
+    text-align: center;
+    box-shadow: box-shadow;
+ }
+ 
+ .team .box-container .box img{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+ }
+ 
+ .team .box-container .box h3{
+    font-size: 1.5rem;
+    color:black;
+    text-transform: capitalize;
+ }
+ 
+ .team .box-container .box p{
+    font-size: 1rem;
+    /* color: rgb(138, 9, 31); */
+ }
+ 
+ .team .box-container .box .share{
+    margin-top: .3rem;
+ }
+ 
+ .team .box-container .box .share a{
+    height: 2rem;
+    width: 2rem;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    /* background: black; */
+    border-radius: .5rem;
+    color:white;
+    margin: .5rem 0;
+ }
+ 
+ .team .box-container .box .share a:hover{
+    /* background: rgb(138, 9, 31); */
+ }
+ 
+ .et_pb_main_blurb_image {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 220px;
+    line-height: 0;
+    border: 2px solid #531717;
+    padding: 12px;
+}
+ 
+.wedding-proposal-btn {
+    position: relative;
+    width: 300px;
+    padding: 0;
+    clear: both;
+    display: block;
+    margin: 0 0 0 25px;
+}
+.fill-btn {
+    display: block;
+    background: rgb(163, 125, 43);
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 -3px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Montserrat;
+    line-height: 50px;
+    height: 55px;
+    width: 231px;
+    margin: 23px auto 0;
+    overflow: hidden;
+    outline: 0;
+    z-index: 1;
+    cursor: pointer;
+}
+.title-box1 {
+    text-align: center;
+    padding-top: 80px;
+    color:#ac8531;
+}
+
+.testi-box {
+    justify-content: center;
+    align-items:center ;
+    text-align: left;
+    padding-left: 17px;
+    background-color: #896633;
+    height: 100px;
+}
+.testi-holder {
+    padding-top: 0px;
+    height: 328px;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+}.journey-section {
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 59px;
+    margin-bottom: 59px;
+}.m-0 {
+    margin: 0px;
+}
+.m-0 {
+    margin: 1!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}.col-lg-4 {
+    /* flex: 0 0 33.333333%; */
+    max-width: 33.333333%;
+}
+.testi-holder h2 {
+    font-style: bold;
+    text-align: center;
+    padding-top: 132px;
+    font-size: 1.5vw;
+    color: #000000;
+    font-family: "DejaVu Sans";
+    font-weight: 400;
+    line-height: 28px;
+}.testi-holder h3 {
+    font-style: italic;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 1vw;
+    color: #000000;
+    font-family: "Trirong", serif;
+    font-weight: 400;
+    line-height: 28px;
+}.testi-holder p {
+    font-size: 0.9vw;
+    line-height: 28px;
+    color: #2e2d2d;
+    font-family: "Trirong", serif;
+    font-weight: 400;
+    text-align: left;
+    padding: 0 9px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
