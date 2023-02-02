@@ -205,17 +205,21 @@ ul li{
 } */}
 .rig{
     width: 36vw;
+    border-radius: 12px;
     
 }
 .right{
     /* margin-left: 600px; */
     width: 40vw;
+    margin-top: 104px;
+    border-radius:12px ;
     
 }
 .left{
    border-radius: 12px;
     /* margin-right: 1000px; */
-    width: 30vw;
+    width: 27vw;
+    margin-top: 24px;
 
     
 }
@@ -230,7 +234,9 @@ ul li{
         list-style: none;
         -webkit-font-smoothing: antialiased;
         font-weight: 50; 
-        color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh;
+        color: #ac8531;
+        font-family: "Sofia", sans-serif;font-size: 6vh;
+        /* color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh; */
         text-align: center;
 }
 .heakkk{
@@ -238,6 +244,7 @@ ul li{
     list-style: none;
     -webkit-font-smoothing: antialiased;
     font-weight: 50; 
+  
     color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh;
     text-align: center;
 }
@@ -247,13 +254,20 @@ ul li{
     list-style: none;
     -webkit-font-smoothing: antialiased;
     font-weight: 50; 
-    color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh;
+    
+        color: #ac8531;
+        font-family: "Sofia", sans-serif;font-size: 6vh;
+    /* color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh; */
 }
 .headd{
         margin-bottom: 40px;
         list-style: none;
         -webkit-font-smoothing: antialiased;
-        font-weight: 50;  color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh;
+        color: #ac8531;
+        font-weight: 50; 
+
+        font-family: "Sofia", sans-serif;font-size: 6vh;
+        /* font-weight: 50;  color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size: 6vh; */
 }
 .pacc{padding-bottom: 17px;
     list-style: none;
@@ -313,8 +327,11 @@ ul li{
     margin-bottom: 40px;
     list-style: none;
     -webkit-font-smoothing: antialiased;
+    
     font-weight: 50; 
-    color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size:6vh;
+        color: #ac8531;
+        font-family: "Sofia", sans-serif;font-size: 6vh;
+    /* color: rgb(138, 9, 31) ;font-family: "Sofia", sans-serif;font-size:6vh; */
 }
 .photo{
     margin-top:30px ;
@@ -818,3 +835,7 @@ input {
     font-size: inherit;
     line-height: inherit;
 } 
+.title-box1 h2{
+    font-size: 4vh;
+    /* font-family: "Sofia", sans-serif; */
+}
